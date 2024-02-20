@@ -2,7 +2,6 @@
 @use '@carbon/react/scss/type' as *;
 @use '@carbon/react/scss/breakpoint' as *;
 @use '@carbon/react/scss/theme' as *;
-
 @use './mixins.scss' as *;
 @use './overrides.scss';
 
@@ -45,6 +44,10 @@
   }
 }
 
+.tabs-group {
+  background-color: $layer-01;
+}
+
 .landing-page__r3 {
   padding-top: $spacing-09;
   padding-bottom: $spacing-09;
@@ -54,10 +57,6 @@
 
 .landing-page__label {
   @include type-style('heading-01');
-}
-
-.tabs-group {
-  background-color: $layer-01;
 }
 
 .landing-page__banner,
